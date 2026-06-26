@@ -1,0 +1,13 @@
+[package]
+name = "tls-fingerprint"
+version = "0.1.0"
+edition = "2021"
+description = "Passive TLS client fingerprinting — JA3 and Mercury NPF from raw ClientHello bytes"
+license = "Apache-2.0"
+repository = "https://github.com/allod-solutions/tls-fingerprint"
+keywords = ["tls", "fingerprint", "ja3", "mercury", "security"]
+categories = ["network-programming", "cryptography"]
+
+[dependencies]
+md5 = "0.7"
+sha2 = "0.10"
